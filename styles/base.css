@@ -24,3 +24,7 @@ body {
 .navbar-custom a{
   margin-left: 20px;
 }
+
+.cards-comments {
+  height: 420px;
+}
