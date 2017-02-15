@@ -1,0 +1,26 @@
+body {
+  background-color: #1E303E;
+}
+
+.card-video {
+  height: 420px;
+}
+
+.card-video iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-text h1{
+  color: #2196F3;
+  text-align: center;
+}
+
+.hero-text p{
+  color: #fff;
+  text-align: center;
+}
+
+.navbar-custom a{
+  margin-left: 20px;
+}
