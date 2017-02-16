@@ -8,13 +8,13 @@
 
       <!-- Compiled and minified CSS -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-      <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
-      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+      <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
       <!-- Compiled and minified JavaScript -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
       <link rel="stylesheet" href="styles/base.css">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <script src="https://use.fontawesome.com/ca76ce3164.js"></script>
   </head>
 
   <body>
@@ -22,45 +22,70 @@
         <div class="nav-wrapper blue navbar-custom">
           <a href="#" class="brand-logo">Pitch - App Dashboard</a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="badges.html">Newsletter</a></li>
             <li><a href="http://ikoapp.com">Blog</a></li>
           </ul>
         </div>
     </nav>
 
     <div class="container">
-      <div class="hero-text">
-        <h1>Pitch - App Dashboard de videos stream</h1>
-        <p>Confira nosso pitch ao vivo sobre o App que te informa métricas da live stream que você está transmitindo.</p>
-      </div>
+      <section id="section-hero">
+        <div class="hero-text">
+          <h1>Marque presença em seus lançamentos.</h1>
+          <p>Já pensou em transmitir seus lançamentos de produtos em tempo real de forma profissional e ainda promover a interação com seu público?</p>
+        </div>
+      </section>
 
-      <div class="row">
-        <div class="col s12 m12 l8">
-          <div class="card-panel teal card-video white">
-            <iframe src="https://netshow.me/embed/QNBxmBGq" frameborder="0" scrolling="no" allowfullscreen></iframe>
+      <section id="section-details">
+        <div class="row">
+          <div class="col s12 m4 l4 section-details-text">
+            <i class="fa fa-bar-chart fa-5x" aria-hidden="true"></i>
+            <h5>Análise de métricas da transmissão (tempo real)</h5>
+            <!-- <p> Veja em tempo real como as pessoas interagem com a sua live através de nosso aplicativo.</p> -->
+          </div>
+          <div class="col s12 m4 l4 section-details-text">
+            <i class="fa fa-diamond fa-5x" aria-hidden="true"></i>
+            <h5>Personalização do canal</h5>
+            <!-- <p>Crie uma página com a sua identidade visual e domínio, de a sua cara.</p> -->
+          </div>
+          <div class="col s12 m4 l4 section-details-text">
+            <i class="fa fa-cog fa-5x" aria-hidden="true"></i>
+            <h5>Infraestrutura para interação com convidados</h5>
+            <!-- <p> Interaja com seu público através das redes sociais ou de nosso chat.</p> -->
           </div>
         </div>
-        <div class="cards-comments">
-          <div class="col s12 m12 l4">
-            <div class="card-panel teal white">
-              <div class="row" style="margin-bottom: -40px; margin-top: -30px;">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="input-field">
-                      <input placeholder="Digitar comentário" id="comments" type="text" class="validate">
-                      <a href="#"><i class="material-icons">thumb_up</i></a>
-                      <a href="#"><i class="material-icons">thumb_down</i></a>
+      </section>
+
+      <section id="section-live">
+        <div class="row">
+          <h3>Live Stream do lançamento</h3>
+          <p>Dia 17 de Fevereiro às 20:40</p>
+          <div class="col s12 m12 l8">
+            <div class="card-panel teal card-video white">
+              <iframe src="https://netshow.me/embed/QNBxmBGq" frameborder="0" scrolling="no" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="cards-comments">
+            <div class="col s12 m12 l4">
+              <div class="card-panel teal white">
+                <div class="row" style="margin-bottom: -40px; margin-top: -30px;">
+                  <form class="col s12">
+                    <div class="row">
+                      <div class="input-field">
+                        <input placeholder="Digitar comentário" id="comments" type="text" class="validate">
+                        <a href="#"><i class="material-icons">thumb_up</i></a>
+                        <a href="#"><i class="material-icons">thumb_down</i></a>
+                      </div>
                     </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
+              </div>
+              <div class="card-panel teal white" style="height: 295px;">
               </div>
             </div>
-            <div class="card-panel teal white" style="height: 295px;">
-            </div>
           </div>
         </div>
+      </section>
       </div>
-    </div>
 
     <footer class="page-footer blue darken-4">
       <div class="footer-copyright blue darken-4">

@@ -11,6 +11,11 @@ body {
   width: 100%;
 }
 
+.hero-text {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 .hero-text h1{
   color: #2196F3;
   text-align: center;
@@ -27,4 +32,42 @@ body {
 
 .cards-comments {
   height: 420px;
+}
+
+#section-details {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.section-details-text i{
+  margin: auto;
+  color: #FFF;
+  text-align: center;
+  display: block;
+}
+
+.section-details-text h5{
+  color: #2196F3;
+  text-align: center;
+}
+
+.section-details-text p{
+  color: #FFF;
+  text-align: center;
+}
+
+#section-live {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+#section-live h3 {
+  color: #2196F3;
+  text-align: center;
+}
+
+#section-live p {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 50px;
 }
