@@ -333,6 +333,18 @@
 		});
 	}
 
+	database.ref('/messages/' + login.id).on('child_added', function(snap){
+		var data = snap.val();
+
+		if(data.action == 'ping'){
+			var key = Base.ref().child('/messages/' + data.user ).push().key;
+
+			database.ref('/messages/' + data.user + '/' + key ).set({
+				action: 'pong',
+				user: login.id
+			});
+		}
+	});
 
 }(window.jQuery));
 
